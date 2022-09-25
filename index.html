@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trade</title>
+</head>
+<body>
+
+    <section class="top">
+        <div class="container">
+        <div class="row">
+                <marquee id='marquee_content'  width='100%' height = '33' align='top' behavior = 'scroll' direction = 'left' onMouseOut=this.start(); onMouseOver=this.stop(); scrollamount='1' scrolldelay='10' truespeed bgcolor='#fffff4'>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" >
+                        <tr>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.00%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.00%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.70%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.90%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.00%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 0.50%</p></td>
+                           <td><p>1STPRIMFMF 17.00 <img src="images/up arrow.png" alt="arrow"><br> 0.00 &nbsp; &nbsp; 1.00%</p></td>
+                        </tr>       
+                    </table>       
+                </marquee>
+            </div>
+        </div>
+    </section>
+
+    <!--  header part end   -->
+
+    <!--  update part start  -->
+    
+    <section id="update">
+        <div class="container">
+        <div class="row">
+                <div class="col-lg-6 border_class">
+                    <div class="update_heading">
+                        <h5>Last update on Sep 25, 2022 at 1:46 PM</h5>
+                    </div>
+                    <div class="update_content">
+                        <div class="data1">
+                            <h6>DSE<font size="+1">X</font> Index</h6>
+                        </div>
+                        <div class="data2">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data3">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data4">
+                            <div class="content1"><p>6511.52816 <img src="images/downArrow.jpg" alt=""></p></div>
+                        </div>
+                    </div>
+
+                    <div class="update_content">
+                        <div class="data1">
+                            <h6>DSE<font size="+1">S</font> Index</h6>
+                        </div>
+                        <div class="data2">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data3">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data4">
+                            <div class="content1"><p>6511.52816 <img src="images/downArrow.jpg" alt=""></p></div>
+                        </div>
+                    </div>
+
+                    <div class="update_content">
+                        <div class="data1">
+                            <h6>DSE<font size="+1">30</font> Index</h6>
+                        </div>
+                        <div class="data2">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data3">
+                            <div class="content1"><p>6511.52816</p></div>
+                        </div>
+                        <div class="data4">
+                            <div class="content1"><p>6511.52816 <img src="images/downArrow.jpg" alt=""></p></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="total_content">
+                        <div class="total1">
+                            <h6>Total Trade</h6>
+                            <div class="total1_content">
+                                <div class="total1_data"><p>6511.52816</p></div>
+                            </div>
+                        </div>
+
+                        <div class="total1">
+                            <h6>Total Volume</h6>
+                            <div class="total1_content">
+                                <div class="total1_data"><p>6511.52816</p></div>
+                            </div>
+                        </div>
+
+                        <div class="total1">
+                            <h6>Total Volume in Taka (mn)</h6>
+                            <div class="total1_content">
+                                <div class="total1_data"><p>6511.52816</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="padding_bottom_class">
+                        <div class="total_content">
+                            <div class="total1">
+                                <h6>Issues Advanced</h6>
+                                <div class="total1_content">
+                                    <div class="total1_data"><p>95</p></div>
+                                </div>
+                            </div>
+    
+                            <div class="total1">
+                                <h6>Issues Declined</h6>
+                                <div class="total1_content">
+                                    <div class="total1_data"><p>121</p></div>
+                                </div>
+                            </div>
+    
+                            <div class="total1">
+                                <h6>Issues Unchanged</h6>
+                                <div class="total1_content">
+                                    <div class="total1_data"><p>154</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 border_last">
+                    <div class="graph_header">
+                        <div class="text_part">
+                            <h6>Indices</h6>
+                        </div>
+                        <div class="button_part">
+                            <button>DSE<font size="+1">X</font></button>
+                            <button>DSE<font size="+1">S</font></button>
+                            <button>DS30</button>
+                            <button>CDSET</button>
+                        </div>
+                    </div>
+                    <div class="graph_image">
+                        <img src="images/graph.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  update part end  -->
+
+    <!--  ================ market highlights part start ================== -->
+
+    <section id="highlight">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 border_1st">
+                    <div class="highlight_header">
+                        <div class="text_part">
+                            <h6>Market Highlights</h6>
+                        </div>
+                        <div class="highlight_button_part">
+                            <button>By Value</button>
+                            <button>By Volume</button>
+                            <button>By Trade</button>
+                            <button>Daily Market</button>
+                        </div>
+                    </div>
+                    <div class="highlight_content">
+                            <div class="high_1">
+                                <h6 style="font-weight: 700;">TRADING CODE</h6>
+                            </div>
+                            <div class="high_2">
+                                <div class="light_1"><p>VALUE</p></div>
+                            </div>
+                            <div class="high_3">
+                                <div class="light_1"><p>LTP</p></div>
+                            </div>
+                            <div class="high_4">
+                                <div class="light_1"><p>CLOSEP</p></div>
+                            </div>
+                            <div class="high_5">
+                                <div class="light_1"><p>YCP</p></div>
+                            </div>
+                    </div>
+
+                    <div class="highlight_content">
+                        <div class="high_1">
+                            <h6  class="text-primary">ORIONPHARM</h6>
+                        </div>
+                        <div class="high_2">
+                            <div class="light_1"><p>1,779.2670</p></div>
+                        </div>
+                        <div class="high_3">
+                            <div class="light_1"><p>134</p></div>
+                        </div>
+                        <div class="high_4">
+                            <div class="light_1"><p>0</p></div>
+                        </div>
+                        <div class="high_5">
+                            <div class="light_1"><p>149.6</p></div>
+                        </div>
+                </div>
+
+                <div class="highlight_content">
+                    <div class="high_1">
+                        <h6 class="text-primary">BEXIMCO</h6>
+                    </div>
+                    <div class="high_2">
+                        <div class="light_1"><p>1,100.3300</p></div>
+                    </div>
+                    <div class="high_3">
+                        <div class="light_1"><p>131</p></div>
+                    </div>
+                    <div class="high_4">
+                        <div class="light_1"><p>0</p></div>
+                    </div>
+                    <div class="high_5">
+                        <div class="light_1"><p>74.4</p></div>
+                    </div>
+            </div>
+
+            <div class="highlight_content">
+                <div class="high_1">
+                    <h6 class="text-primary">UNIQUEHRL</h6>
+                </div>
+                <div class="high_2">
+                    <div class="light_1"><p>1,100.3300</p></div>
+                </div>
+                <div class="high_3">
+                    <div class="light_1"><p>131</p></div>
+                </div>
+                <div class="high_4">
+                    <div class="light_1"><p>0</p></div>
+                </div>
+                <div class="high_5">
+                    <div class="light_1"><p>74.4</p></div>
+                </div>
+        </div>
+
+        <div class="highlight_content">
+            <div class="high_1">
+                <h6 class="text-primary">BDCOM</h6>
+            </div>
+            <div class="high_2">
+                <div class="light_1"><p>1,100.3300</p></div>
+            </div>
+            <div class="high_3">
+                <div class="light_1"><p>131</p></div>
+            </div>
+            <div class="high_4">
+                <div class="light_1"><p>0</p></div>
+            </div>
+            <div class="high_5">
+                <div class="light_1"><p>74.4</p></div>
+            </div>
+    </div>
+
+    <div class="highlight_content">
+        <div class="high_1">
+            <h6 class="text-primary">BSC</h6>
+        </div>
+        <div class="high_2">
+            <div class="light_1"><p>1,100.3300</p></div>
+        </div>
+        <div class="high_3">
+            <div class="light_1"><p>131</p></div>
+        </div>
+        <div class="high_4">
+            <div class="light_1"><p>0</p></div>
+        </div>
+        <div class="high_5">
+            <div class="light_1"><p>74.4</p></div>
+        </div>
+</div>
+
+<div class="highlight_content">
+    <div class="high_1">
+        <h6 class="text-primary">JHRML</h6>
+    </div>
+    <div class="high_2">
+        <div class="light_1"><p>1,100.3300</p></div>
+    </div>
+    <div class="high_3">
+        <div class="light_1"><p>131</p></div>
+    </div>
+    <div class="high_4">
+        <div class="light_1"><p>0</p></div>
+    </div>
+    <div class="high_5">
+        <div class="light_1"><p>74.4</p></div>
+    </div>
+</div> 
+
+<div class="highlight_content">
+    <a class="text-primary" href="#">More...</a>
+    </div>
+</div> 
+
+                <div class="col-lg-6 border_1st">
+                    <div class="highlight_header">
+                        <div class="text_part">
+                            <h6>Share Price by</h6>
+                        </div>
+                        <div class="highlight_button_part">
+                            <button>Last Trade Price</button>
+                            <button>%Change</button>
+                            <button>Debit Board</button>
+                        </div>
+                    </div>
+                    <div class="highlight_content">
+                            <div class="high_1">
+                                <h6 style="font-weight: 700;">TRADING CODE</h6>
+                            </div>
+                            <div class="high_2">
+                                <div class="light_1"><p>LTP</p></div>
+                            </div>
+                            <div class="high_3">
+                                <div class="light_1"><p>CHANGE</p></div>
+                            </div>
+                            <div class="high_4">
+                                <div class="light_1"><p>CLOSEP</p></div>
+                            </div>
+                            <div class="high_5">
+                                <div class="light_1"><p>YCP</p></div>
+                            </div>
+                    </div>
+
+                    <div class="highlight_content">
+                        <div class="high_1">
+                            <h6  class="text-primary">RECKITTBEN</h6>
+                        </div>
+                        <div class="high_2">
+                            <div class="light_1"><p>4,880</p></div>
+                        </div>
+                        <div class="high_3">
+                            <div class="light_1"><p>134</p></div>
+                        </div>
+                        <div class="high_4">
+                            <div class="light_1"><p class="text-danger"> -14.1</p></div>
+                        </div>
+                        <div class="high_5">
+                            <div class="light_1"><p>149.6</p></div>
+                        </div>
+                </div>
+
+                <div class="highlight_content">
+                    <div class="high_1">
+                        <h6 class="text-primary">BEXIMCO</h6>
+                    </div>
+                    <div class="high_2">
+                        <div class="light_1"><p>1,100.3300</p></div>
+                    </div>
+                    <div class="high_3">
+                        <div class="light_1"><p>131</p></div>
+                    </div>
+                    <div class="high_4">
+                        <div class="light_1"><p>0</p></div>
+                    </div>
+                    <div class="high_5">
+                        <div class="light_1"><p>74.4</p></div>
+                    </div>
+            </div>
+
+            <div class="highlight_content">
+                <div class="high_1">
+                    <h6 class="text-primary">MARICO</h6>
+                </div>
+                <div class="high_2">
+                    <div class="light_1"><p>1,100.3300</p></div>
+                </div>
+                <div class="high_3">
+                    <div class="light_1"><p class="text-success">7.90</p></div>
+                </div>
+                <div class="high_4">
+                    <div class="light_1"><p>0</p></div>
+                </div>
+                <div class="high_5">
+                    <div class="light_1"><p>74.4</p></div>
+                </div>
+        </div>
+
+        <div class="highlight_content">
+            <div class="high_1">
+                <h6 class="text-primary">BDCOM</h6>
+            </div>
+            <div class="high_2">
+                <div class="light_1"><p>1,100.3300</p></div>
+            </div>
+            <div class="high_3">
+                <div class="light_1"><p>131</p></div>
+            </div>
+            <div class="high_4">
+                <div class="light_1"><p>0</p></div>
+            </div>
+            <div class="high_5">
+                <div class="light_1"><p>74.4</p></div>
+            </div>
+    </div>
+
+    <div class="highlight_content">
+        <div class="high_1">
+            <h6 class="text-primary">BSC</h6>
+        </div>
+        <div class="high_2">
+            <div class="light_1"><p>1,100.3300</p></div>
+        </div>
+        <div class="high_3">
+            <div class="light_1"><p>131</p></div>
+        </div>
+        <div class="high_4">
+            <div class="light_1"><p>0</p></div>
+        </div>
+        <div class="high_5">
+            <div class="light_1"><p>74.4</p></div>
+        </div>
+</div>
+
+<div class="highlight_content">
+    <div class="high_1">
+        <h6 class="text-primary">JHRML</h6>
+    </div>
+    <div class="high_2">
+        <div class="light_1"><p>1,100.3300</p></div>
+    </div>
+    <div class="high_3">
+        <div class="light_1"><p>131</p></div>
+    </div>
+    <div class="high_4">
+        <div class="light_1"><p>0</p></div>
+    </div>
+    <div class="high_5">
+        <div class="light_1"><p>74.4</p></div>
+    </div>
+</div> 
+
+<div class="highlight_content">
+    <a class="text-primary" href="#">More...</a>
+    </div>
+</div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  =================== market highlights part end ================== -->
+
+
+<!-- ============================================================================== -->
+
+<section id="last_table">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="header_table text-center">
+                    <h3>Top Twenty Shares by Value On  Sep 25, 2022 at 3:00 PM</h3>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered background-white shares-table">
+                        <thead>
+                        <tr>
+                            <th width="4%">#</th>
+                            <th width="12%">TRADING CODE</th>
+                            <th width="12%">LTP*</th>
+                            <th width="12%">HIGH</th>
+                            <th width="12%">LOW</th>
+                            <th width="12%">YCP*</th>
+                            <th width="12%">CLOSEP*</th>
+                            <th width="12%">TRADE</th>
+                            <th width="12%">VALUE(mn)</th>
+                            <th width="12%">VOLUME</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                            <td width="4%">1</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=ORIONPHARM" class="ab1">ORIONPHARM</a> 
+                            </td>
+                            <td width="12%">
+                                135.1										</td>
+                            <td width="12%">
+                                152										</td>
+                            <td width="12%">
+                                134.7										</td>
+                            <td width="12%">
+                                149.6										</td>
+                            <td width="12%">
+                                135.1										</td>
+                            <td width="12%"> 
+                                15,698										</td>
+                            <td width="12%" class="background-yellow"> 
+                                1,791.8650										</td>
+                            <td width="12%">
+                                12,711,320										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">2</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=BEXIMCO" class="ab1">BEXIMCO</a> 
+                            </td>
+                            <td width="12%">
+                                131.7										</td>
+                            <td width="12%">
+                                136.4										</td>
+                            <td width="12%">
+                                130.5										</td>
+                            <td width="12%">
+                                134.5										</td>
+                            <td width="12%">
+                                131.7										</td>
+                            <td width="12%"> 
+                                7,402										</td>
+                            <td width="12%" class="background-yellow"> 
+                                1,145.9010										</td>
+                            <td width="12%">
+                                8,598,910										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">3</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=UNIQUEHRL" class="ab1">UNIQUEHRL</a> 
+                            </td>
+                            <td width="12%">
+                                79.2										</td>
+                            <td width="12%">
+                                81.8										</td>
+                            <td width="12%">
+                                76										</td>
+                            <td width="12%">
+                                74.4										</td>
+                            <td width="12%">
+                                79.2										</td>
+                            <td width="12%"> 
+                                7,969										</td>
+                            <td width="12%" class="background-yellow"> 
+                                976.5210										</td>
+                            <td width="12%">
+                                12,063,502										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">4</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=BDCOM" class="ab1">BDCOM</a> 
+                            </td>
+                            <td width="12%">
+                                59										</td>
+                            <td width="12%">
+                                60.8										</td>
+                            <td width="12%">
+                                51										</td>
+                            <td width="12%">
+                                55.4										</td>
+                            <td width="12%">
+                                59										</td>
+                            <td width="12%"> 
+                                3,485										</td>
+                            <td width="12%" class="background-yellow"> 
+                                844.6750										</td>
+                            <td width="12%">
+                                14,691,992										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">5</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=BSC" class="ab1">BSC</a> 
+                            </td>
+                            <td width="12%">
+                                158										</td>
+                            <td width="12%">
+                                173										</td>
+                            <td width="12%">
+                                156.3										</td>
+                            <td width="12%">
+                                168.9										</td>
+                            <td width="12%">
+                                158										</td>
+                            <td width="12%"> 
+                                5,515										</td>
+                            <td width="12%" class="background-yellow"> 
+                                620.7080										</td>
+                            <td width="12%">
+                                3,781,869										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">6</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=JHRML" class="ab1">JHRML</a> 
+                            </td>
+                            <td width="12%">
+                                120.7										</td>
+                            <td width="12%">
+                                133.8										</td>
+                            <td width="12%">
+                                118.4										</td>
+                            <td width="12%">
+                                131.5										</td>
+                            <td width="12%">
+                                120.7										</td>
+                            <td width="12%"> 
+                                8,630										</td>
+                            <td width="12%" class="background-yellow"> 
+                                584.2290										</td>
+                            <td width="12%">
+                                4,633,981										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">7</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=EHL" class="ab1">EHL</a> 
+                            </td>
+                            <td width="12%">
+                                94.5										</td>
+                            <td width="12%">
+                                100.9										</td>
+                            <td width="12%">
+                                93.1										</td>
+                            <td width="12%">
+                                93.1										</td>
+                            <td width="12%">
+                                94.5										</td>
+                            <td width="12%"> 
+                                5,651										</td>
+                            <td width="12%" class="background-yellow"> 
+                                577.6750										</td>
+                            <td width="12%">
+                                5,950,372										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">8</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=SPCL" class="ab1">SPCL</a> 
+                            </td>
+                            <td width="12%">
+                                93.1										</td>
+                            <td width="12%">
+                                103.2										</td>
+                            <td width="12%">
+                                92.2										</td>
+                            <td width="12%">
+                                100.8										</td>
+                            <td width="12%">
+                                93.1										</td>
+                            <td width="12%"> 
+                                5,138										</td>
+                            <td width="12%" class="background-yellow"> 
+                                419.7450										</td>
+                            <td width="12%">
+                                4,305,579										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">9</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=BBS" class="ab1">BBS</a> 
+                            </td>
+                            <td width="12%">
+                                28.2										</td>
+                            <td width="12%">
+                                28.6										</td>
+                            <td width="12%">
+                                26.7										</td>
+                            <td width="12%">
+                                26.2										</td>
+                            <td width="12%">
+                                28.2										</td>
+                            <td width="12%"> 
+                                5,516										</td>
+                            <td width="12%" class="background-yellow"> 
+                                411.6720										</td>
+                            <td width="12%">
+                                14,688,557										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">10</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=INTRACO" class="ab1">INTRACO</a> 
+                            </td>
+                            <td width="12%">
+                                42.5										</td>
+                            <td width="12%">
+                                43.2										</td>
+                            <td width="12%">
+                                40.1										</td>
+                            <td width="12%">
+                                39.4										</td>
+                            <td width="12%">
+                                42.5										</td>
+                            <td width="12%"> 
+                                3,354										</td>
+                            <td width="12%" class="background-yellow"> 
+                                339.3880										</td>
+                            <td width="12%">
+                                8,090,866										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">11</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=NAHEEACP" class="ab1">NAHEEACP</a> 
+                            </td>
+                            <td width="12%">
+                                74.6										</td>
+                            <td width="12%">
+                                75										</td>
+                            <td width="12%">
+                                69.3										</td>
+                            <td width="12%">
+                                68.2										</td>
+                            <td width="12%">
+                                74.6										</td>
+                            <td width="12%"> 
+                                3,652										</td>
+                            <td width="12%" class="background-yellow"> 
+                                324.2770										</td>
+                            <td width="12%">
+                                4,368,480										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">12</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=PENINSULA" class="ab1">PENINSULA</a> 
+                            </td>
+                            <td width="12%">
+                                41.9										</td>
+                            <td width="12%">
+                                43.5										</td>
+                            <td width="12%">
+                                41.3										</td>
+                            <td width="12%">
+                                39.6										</td>
+                            <td width="12%">
+                                41.9										</td>
+                            <td width="12%"> 
+                                3,808										</td>
+                            <td width="12%" class="background-yellow"> 
+                                299.6420										</td>
+                            <td width="12%">
+                                6,947,812										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">13</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=LHBL" class="ab1">LHBL</a> 
+                            </td>
+                            <td width="12%">
+                                76.8										</td>
+                            <td width="12%">
+                                78.7										</td>
+                            <td width="12%">
+                                76.5										</td>
+                            <td width="12%">
+                                77.3										</td>
+                            <td width="12%">
+                                76.8										</td>
+                            <td width="12%"> 
+                                3,377										</td>
+                            <td width="12%" class="background-yellow"> 
+                                279.9210										</td>
+                            <td width="12%">
+                                3,610,380										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">14</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=MALEKSPIN" class="ab1">MALEKSPIN</a> 
+                            </td>
+                            <td width="12%">
+                                39.2										</td>
+                            <td width="12%">
+                                40.9										</td>
+                            <td width="12%">
+                                38.6										</td>
+                            <td width="12%">
+                                38.4										</td>
+                            <td width="12%">
+                                39.2										</td>
+                            <td width="12%"> 
+                                2,501										</td>
+                            <td width="12%" class="background-yellow"> 
+                                270.5220										</td>
+                            <td width="12%">
+                                6,811,230										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">15</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=BPML" class="ab1">BPML</a> 
+                            </td>
+                            <td width="12%">
+                                83.5										</td>
+                            <td width="12%">
+                                92										</td>
+                            <td width="12%">
+                                82										</td>
+                            <td width="12%">
+                                89.9										</td>
+                            <td width="12%">
+                                83.5										</td>
+                            <td width="12%"> 
+                                4,464										</td>
+                            <td width="12%" class="background-yellow"> 
+                                263.7470										</td>
+                            <td width="12%">
+                                3,015,521										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">16</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=SPCERAMICS" class="ab1">SPCERAMICS</a> 
+                            </td>
+                            <td width="12%">
+                                50.4										</td>
+                            <td width="12%">
+                                52.7										</td>
+                            <td width="12%">
+                                50										</td>
+                            <td width="12%">
+                                50.6										</td>
+                            <td width="12%">
+                                50.4										</td>
+                            <td width="12%"> 
+                                3,576										</td>
+                            <td width="12%" class="background-yellow"> 
+                                253.7850										</td>
+                            <td width="12%">
+                                4,935,469										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">17</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=ACMELAB" class="ab1">ACMELAB</a> 
+                            </td>
+                            <td width="12%">
+                                98.3										</td>
+                            <td width="12%">
+                                104										</td>
+                            <td width="12%">
+                                97.5										</td>
+                            <td width="12%">
+                                103.2										</td>
+                            <td width="12%">
+                                98.3										</td>
+                            <td width="12%"> 
+                                3,827										</td>
+                            <td width="12%" class="background-yellow"> 
+                                240.2980										</td>
+                            <td width="12%">
+                                2,398,196										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">18</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=FAREASTLIF" class="ab1">FAREASTLIF</a> 
+                            </td>
+                            <td width="12%">
+                                95.8										</td>
+                            <td width="12%">
+                                101										</td>
+                            <td width="12%">
+                                93.3										</td>
+                            <td width="12%">
+                                92.6										</td>
+                            <td width="12%">
+                                95.8										</td>
+                            <td width="12%"> 
+                                2,636										</td>
+                            <td width="12%" class="background-yellow"> 
+                                235.8050										</td>
+                            <td width="12%">
+                                2,406,461										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">19</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=SEAPEARL" class="ab1">SEAPEARL</a> 
+                            </td>
+                            <td width="12%">
+                                137.7										</td>
+                            <td width="12%">
+                                137.7										</td>
+                            <td width="12%">
+                                128										</td>
+                            <td width="12%">
+                                125.2										</td>
+                            <td width="12%">
+                                137.6										</td>
+                            <td width="12%"> 
+                                2,431										</td>
+                            <td width="12%" class="bg-warning"> 
+                                232.7460										</td>
+                            <td width="12%">
+                                1,714,480										</td>
+                        </tr>
+                                                            <tr>
+                            <td width="4%">20</td>
+                            <td width="12%">
+                                <a href="displayCompany.php?name=ORIONINFU" class="ab1">ORIONINFU</a> 
+                            </td>
+                            <td width="12%">
+                                565.7										</td>
+                            <td width="12%">
+                                580										</td>
+                            <td width="12%">
+                                534										</td>
+                            <td width="12%">
+                                575.6										</td>
+                            <td width="12%">
+                                565.7										</td>
+                            <td width="12%"> 
+                                2,567										</td>
+                            <td width="12%" class="background-yellow"> 
+                                220.6250										</td>
+                            <td width="12%">
+                                393,576										</td>
+                        </tr>
+                                                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================================== -->
+
+
+<div class="footer-bottom">
+    <div class="container text-center">
+      <p> This template is redesigned by
+        <a href="https://www.facebook.com/mehedihasan.sany.549"
+          ><span >Mehedi Hasan Sany</span></a>
+      </p>
+    </div>
+  </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
